@@ -7,7 +7,7 @@ This repisitory will support Raspberry Pi 3B+ and Raspberry Pi 4B
 
 ### Installing the raspberry pi image
 
-[https://www.raspberrypi.org/homepage-9df4b/static/md-82e922d180736055661b2b9df176700c.png]
+![Raspberry Pi Imager](https://www.raspberrypi.org/homepage-9df4b/static/md-82e922d180736055661b2b9df176700c.png)
 
 If you know how to install a raspberry pi image you can skip this step.
 At first go to the Raspberry Pi Website and download the Raspberry Pi Imager: https://www.raspberrypi.org/software/ 
