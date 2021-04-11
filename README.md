@@ -112,7 +112,7 @@ We will add a folder named mycode which will be the folder for the webpages.
       
 copy and paste the code down below
 
-      ````php
+      ```php
       
       <!doctype html>
             <html>
@@ -457,7 +457,7 @@ copy and paste the code down below
       </html>
      
      
-````
+```
          
       
   
