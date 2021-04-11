@@ -534,8 +534,7 @@ form{
 there you have to insert the following, but first delete everything in this file. (You just need to press _del_ for some time
 
 
-
-	```
+```
 	<VirtualHost *:80>
         # The ServerName directive sets the request scheme, hostname and port that
         # the server uses to identify itself. This is used when creating
@@ -575,8 +574,7 @@ there you have to insert the following, but first delete everything in this file
 
 	# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 
-
-	```
+```
 
       
 
