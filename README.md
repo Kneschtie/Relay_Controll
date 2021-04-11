@@ -579,3 +579,7 @@ there you have to insert the following, but first delete everything in this file
       
 
 
+
+# If you want to support me, please subscribe to my Youtube Channel
+
+! [Link to Knesti Tech] (https://www.youtube.com/channel/UCUKGpRmZLFh_AmThMi59b7w)
