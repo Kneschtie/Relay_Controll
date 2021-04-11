@@ -108,6 +108,7 @@ We will add a folder named mycode which will be the folder for the webpages.
       
 #### Adding the scripts into the folder
 
+      cd /var/www/mycode/
       sudo nano Hauptseite.php
       
 copy and paste the code down below
@@ -459,8 +460,72 @@ copy and paste the code down below
      
  ```
          
-      
+ then after you have insertet it press _ctrl + x_ and Before exiting, nano will ask you if you wish to save the file press _y_ to safe it and then press enter
+ 
+ now we have to add the stylesheet
+ 	      
+	cd /var/www/mycode/
+ 	sudo nano style.css
   
+```css
+@charset "utf-8";
+
+/* CSS Document */
+
+p.bu{color: red;
+		text-align: center;
+			
+}
+main {
+	text-align: center;
+}
+h1{
+	
+	text-align: center;
+	font-family: "alfa-slab-one , bold";
+	color: #F72585;
+	margin-top: 40px;
+	
+}
+body {
+	background-color:#4361EE;
+	clear: both;
+	
+	align-self: center;
+	margin: auto;
+	border: 10px;
+}
+input{
+	text-decoration-color: aqua;
+}
+
+article{
+	
+	border: solid thick #560BAD;
+	float: left;
+	height: auto;
+	width: inherit;
+	padding: 40px;
+	margin: 30px;
+	background: #4895EF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+	
+	
+	
+}
+form{
+	margin: auto;
+	background: #932A2C;
+}
+/* Add this as a property for a selector to which the effect has to be applied*/
+
+```
+ then after you have insertet it press _ctrl + x_ and Before exiting, nano will ask you if you wish to save the file press _y_ to safe it and then press enter
+ 
       
    
 
