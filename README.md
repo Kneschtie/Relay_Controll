@@ -111,7 +111,7 @@ We will add a folder named mycode which will be the folder for the webpages.
       sudo nano Hauptseite.php
       
 copy and paste the code down below
-      
+
          
 
       
