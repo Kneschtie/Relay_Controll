@@ -19,4 +19,15 @@ To connect to the raspberry Pi without using a screen we have to set up SSH. Thi
 If the Sd card doesn't show in your Explorer, eject it and put it back in.
 After adding the file SSH to the micro sd card you can insert the sd card into the Raspberry Pi and boot it up.
 
+### Connect to the raspberry Pi using the IP address
+
+start cmd and type in _ssh pi@(Ip Address of your pi)_ press enter
+
+  ssh pi@Ip Address of your pi
+  
+when you connect first to the Raspberry Pi you have to agree that you want to connect to the Pi. Write yes and then press enter.
+then you have to type in the password, the standart password is _raspberry_ press enter.
+At first i recommend changing the password
+
+
 
