@@ -571,9 +571,9 @@ there you have to insert the following, but first delete everything in this file
         # following line enables the CGI configuration for this host only
         # after it has been globally disabled with "a2disconf".
         #Include conf-available/serve-cgi-bin.conf
-</VirtualHost>
+	</VirtualHost>
 
-# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+	# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 
 
 	```
