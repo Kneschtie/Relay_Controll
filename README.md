@@ -22,12 +22,11 @@ After adding the file SSH to the micro sd card you can insert the sd card into t
 ### Connect to the raspberry Pi using the IP address
 
 start cmd and type in _ssh pi@(Ip Address of your pi)_ press enter
-
-  ssh pi@Ip Address of your pi
-  
 when you connect first to the Raspberry Pi you have to agree that you want to connect to the Pi. Write yes and then press enter.
 then you have to type in the password, the standart password is _raspberry_ press enter.
 At first i recommend changing the password
 
+### Changing the password
+write _passwd_ to change the password. At first you have to write the old password and after pressing enter you can Type in the password you like. It doesn't show you the letters or little stars of your password.
 
 
