@@ -19,7 +19,8 @@ To connect to the raspberry Pi without using a screen we have to set up SSH. Thi
 ![image](https://user-images.githubusercontent.com/72698237/114294381-8ca3fe00-9a9e-11eb-86fd-7b99838075cc.png)
 
 If the Sd card doesn't show in your Explorer, eject it and put it back in.
-After adding the file SSH to the micro sd card you can insert the sd card into the Raspberry Pi and boot it up.
+
+After adding the file SSH to the micro sd card you can insert the sd card into the Raspberry Pi connect a LAN cabel and boot it up.
 
 #### Connect to the raspberry Pi using the IP address
 
@@ -31,7 +32,11 @@ then you have to type in the password, the standart password is _raspberry_ pres
 At first i recommend changing the password
 
 #### Changing the password
-write _passwd_ to change the password. At first you have to write the old password and after pressing enter you can Type in the password you like. It doesn't show you the letters or little stars of your password.
+write _passwd_ to change the password. At first you have to write the old password and after pressing enter you can Type in the password you like. 
+
+      passwd
+      
+It doesn't show you the letters or little stars of your password.
 
 Nice now we have setted up the raspberry Pi successfully. Congratulations!!
 
@@ -67,6 +72,16 @@ enable:
 #### when you change something you have to reload apache 2
 
       sudo systemctl reload apache2
+      
+#### Testing if the webserver works
+use your favourite web Browser and type the ip address of your raspberry pi into the addressline
+
+you can also type in _http://localhost_
+
+      
+## Now it's time to configure the webserver
+
+### Setting up a password for your 
       
 
 
