@@ -1,6 +1,6 @@
 # Relay_Controll
 
-This repisitory will support Raspberry Pi 3B+ and Raspberry Pi 4B The other Pi's i didn't tested, they probably also work.
+This repisitory will support Raspberry Pi 3B+ and Raspberry Pi 4B The other Pi's i didn't tested, they probably also work. I also a windows pc, so it can diver 
 
 
 ## Setting up your Raspberry Pi:
@@ -575,8 +575,11 @@ there you have to insert the following, but first delete everything in this file
 	# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 
 ```
+then after you have insertet it press _ctrl + x_ and Before exiting, nano will ask you if you wish to save the file press _y_ to safe it and then press enter
 
-      
+and the last thing you need to do is to reload Apache2
+
+	sudo systemctl reload apache2
 
 
 
