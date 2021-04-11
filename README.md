@@ -17,6 +17,7 @@ Now start the raspberry Pi Imager and select the Operating System you want to ha
 To connect to the raspberry Pi without using a screen we have to set up SSH. This step is pretty easy. You just have to create a file with the name _ssh_ without a ending and drag it into the sd card.
 
 ![image](https://user-images.githubusercontent.com/72698237/114294381-8ca3fe00-9a9e-11eb-86fd-7b99838075cc.png)
+
 If the Sd card doesn't show in your Explorer, eject it and put it back in.
 After adding the file SSH to the micro sd card you can insert the sd card into the Raspberry Pi and boot it up.
 
@@ -37,5 +38,11 @@ Nice now we have setted up the raspberry Pi successfully. Congratulations!!
 
 
 ## Installing apache2
-      hallo
+You can copy paste the code down below. To insert it into CMD you have to press the right Mouse Button.
+
+      sudo apt-get update           
+      sudo apt-get upgrade
+      sudo apt install apache2
+            
+            
 
