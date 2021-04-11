@@ -526,7 +526,19 @@ form{
 ```
  then after you have insertet it press _ctrl + x_ and Before exiting, nano will ask you if you wish to save the file press _y_ to safe it and then press enter
  
-      
+#### Now we change the config file
+	
+	cd /etc/apache2/sites-available(
+	sudo nano 000-default.conf
+	
+there you have to insert the following, but first delete everything in this file. (You just need to press _del_ for some time
+
+now you can insert these things
+	
+	```
+	
+
+
    
 
 
