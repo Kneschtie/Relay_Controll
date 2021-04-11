@@ -43,6 +43,30 @@ You can copy paste the code down below. To insert it into CMD you have to press 
       sudo apt-get update           
       sudo apt-get upgrade
       sudo apt install apache2
+      
+Now you have successfully installed the apache Server.
+
+#### The following comands will start or stop the webserver
+
+      sudo systemctl start apache2
+      
+or 
+
+      sudo systemctl stop apache2
             
-            
+##### normally the webserver starts after every reboot. You can disable and enable it 
+
+disable:
+
+      sudo systemctl disable apache2
+      
+enable:
+
+      sudo systemvtl enable apache2
+      
+#### when you change something you have to reload apache 2
+
+      sudo systemctl reload apache2
+      
+
 
