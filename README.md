@@ -81,7 +81,45 @@ you can also type in _http://localhost_
       
 ## Now it's time to configure the webserver
 
-### Setting up a password for your 
+### Setting up a password for your local Website
+
+
+      sudo mkdir /var/www-private
+      sudo chgrp pi.www-data /var/www-private/
+      sudo chmode 2750 /var/www-private/
+     
+setting up the password
+
+      cd /var/www-private
+      htpasswd passwords.pwd "The name of the user you want to add"
+ 
+
+now it asks you to write the password for the new user. 
+you can add as much users as you want, the only thing is of course to use another username, otherwise it wouldn't work
+
+### Adding Code
+#### Adding a folder for the code
+We will add a folder named mycode which will be the folder for the webpages.
+
+      sudo mkdir /var/www/mycode
+      sudo chown pi.www-data /var/www/mycode
+      sudo chmod 2750 /var/www/mycode
+      cd /var/www/mycode/
+      
+#### Adding the scripts into the folder
+
+      sudo nano Hauptseite.php
+      
+copy and paste the code down below
+      
+         
+
+      
+  
+      
+   
+
+
       
 
 
