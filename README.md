@@ -519,7 +519,7 @@ article{
 }
 form{
 	margin: auto;
-	background: #932A2C;
+	
 }
 /* Add this as a property for a selector to which the effect has to be applied*/
 
@@ -580,7 +580,20 @@ then after you have insertet it press _ctrl + x_ and Before exiting, nano will a
 and the last thing you need to do is to reload Apache2
 
 	sudo systemctl reload apache2
+	
+# Wiring Pi
 
+When you use a Raspberry Pi 4 B, you maybe have to update Wiring pi. Wiring pi is a programm that allows you to access the Gpio pins. The link to their Website: http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/
+
+	cd /tmp
+	wget https://project-downloads.drogon.net/wiringpi-latest.deb
+	sudo dpkg -i wiringpi-latest.deb
+	
+
+# How to wire
+
+In this sketch you can see the raspberry Pi and a breadboard. The breadboard is just a replacement for the Relay Board with 8 Relays.
+![image](https://user-images.githubusercontent.com/72698237/116434844-10097180-a84b-11eb-8cfc-2d1d91a74272.png)
 
 
 # If you want to support me, please subscribe to my Youtube Channel
