@@ -1,6 +1,6 @@
 # Relay_Controll
 
-This repisitory will support Raspberry Pi 3B+ and Raspberry Pi 4B The other Pi's i didn't tested, they probably also work. I also a windows pc, so it can diver 
+This repisitory will support Raspberry Pi 3B+ and Raspberry Pi 4B. I didn't tested the other Pi's i didn't tested, they probably also work. I also use a windows pc, so it can diver 
 
 
 ## Setting up your Raspberry Pi:
